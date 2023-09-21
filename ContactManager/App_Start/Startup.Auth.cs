@@ -48,8 +48,8 @@ namespace ContactManager
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "449706185289-10urk3tamshqtc3b6pops02ll8k9ru4u.apps.googleusercontent.com",
-                ClientSecret = "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"
+                ClientId = "mention_your_client_id",
+                ClientSecret = "mention_your_client_secret"
             });
         }
     }
